@@ -1,0 +1,64 @@
+@media screen and (max-width: 767px) {
+
+    #body{
+        background-color: white;
+    }
+
+    #box{
+        padding-top: 0px;
+        width: 100%;
+    }
+     #conteudo{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        border-radius: 0px 0px 0px;
+     }
+
+     #conteudoLeft{
+        padding-right: 0px;
+        padding-top: 10%;
+        padding-left: 15px;
+    }
+
+     #imgDesktop{
+        display: none;
+     }
+
+     #imgMobile{
+        display: flex;
+        width: 100%;
+        border-radius: 0px 0px 10px 10px;
+     }
+
+     #conteudoRight{
+        padding: 0px;
+     }
+
+     #txtEmail{
+        width: 95%;
+     }
+
+     #email{
+        display: flex;
+        flex-direction: column;
+     }
+
+     #erroEmail{
+        padding-right: 5px;
+     }
+
+     #btnSubscribe{
+        width: 95%;
+        margin-bottom: 5%;
+     }
+
+     /* Modal */
+     #modal{
+        padding-top: 30%;
+     }
+
+     #btnModal{
+        margin-top: 90%;
+     }
+}

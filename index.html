@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+
+<body>
+
+    <div id="modal">
+        <div id="conteudoModal">
+            <img src="images/icon-success.svg">
+                <h1>Thanks for subscribing!</h1>
+                <div id="confirmationModal"></div>
+                <input id="btnModal" type="button" value="Dimmiss message" onclick="closeModal()">
+        </div>
+    </div>   
+    <div id="box">
+        <div id="conteudo">
+            <div id="conteudoLeft">
+                <h1>Stay updated!</h1>
+                <div id="join">
+                    Join 60,000+ product managers receiving monthly updates on:
+                </div>
+
+                <div id="check">
+                    <p class="txtCheck">
+                        <img src="./images/icon-list.svg" alt="" srcset="" class="imgCheck">
+                        Product discovery and building what matters
+                    </p>
+                    <p class="txtCheck">
+                        <img src="./images/icon-list.svg" alt="" srcset="" class="imgCheck">
+                        Measuring to ensure updates are a success
+                    </p>
+                    <p class="txtCheck">
+                        <img src="./images/icon-list.svg" alt="" srcset="" class="imgCheck">
+                        And much more!
+                    </p>
+                </div>
+
+                <div id="email">
+                    <strong> Email address</strong>
+                    <div id="erroEmail">
+                        Valid email required
+                    </div>
+                    <p><input type="text" name="txtEmail" id="txtEmail" placeholder="email@company.com"
+                            autocomplete="off"></p>
+                </div>
+
+                <div id="button">
+                    <input type="button" value="Subscribe to monthly newsletter" id="btnSubscribe"
+                        onclick="subscribe()">
+                </div>
+
+            </div>
+
+            <div id="conteudoRight">
+                <img src="./images/illustration-sign-up-desktop.svg" alt="" id="imgDesktop">
+                <img src="./images/illustration-sign-up-mobile.svg" alt="" srcset="" id="imgMobile">
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
