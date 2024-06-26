@@ -53,12 +53,35 @@
         margin-bottom: 5%;
      }
 
-     /* Modal */
-     #modal{
-        padding-top: 30%;
+     #button{
+        display: block;
      }
 
+     /* Modal */
+     #modal{
+        padding-top: 0px;
+        justify-content: inherit;
+        background-color: white;
+     }
+
+     #conteudoModal{
+        border-radius: 0px 0px 0px;
+        padding: 0px;
+        padding-left: 8%;
+        padding-top: 20%;
+     }
+
+     #conteudoModal h1{
+        font-size: 40px;
+        width: 300px;
+     }
+
+    #confirmationModal{
+        padding-top: 10%;
+    }
+
      #btnModal{
-        margin-top: 90%;
+        margin-top: 50%;
+        margin-bottom: 10px;
      }
 }
